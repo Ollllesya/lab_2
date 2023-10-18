@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.content h1 {
+    text-transform: uppercase;
+}
+
+.trafficLight {
+    width: 110px;
+    height: 360px;
+    background-color: rgb(102, 102, 102);
+    position: relative;
+    border: 5px solid #333;
+    border-radius: 10px;
+}
+
+.trafficLight span {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.red {
+    top: 20px;
+    background-color: red;
+}
+
+.yellow {
+    top: 140px;
+    background-color: yellow;
+}
+
+.green {
+    top: 260px;
+    background-color: green;
+}
